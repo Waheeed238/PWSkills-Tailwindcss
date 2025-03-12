@@ -148,6 +148,7 @@
   }
   img, svg, video, canvas, audio, iframe, embed, object {
     display: block;
+    vertical-align: middle;
   }
   img, video {
     max-width: 100%;
@@ -424,7 +425,6 @@
     display: block;
     -webkit-box-orient: horizontal;
     -webkit-line-clamp: unset;
-    line-clamp: unset;
   }
   .block {
     display: block;
@@ -2036,8 +2036,8 @@
     --tw-outline-style: solid;
     outline-style: solid;
   }
-  .default {
-    content: "\u202F${N(`${u}`)}";
+  .\[default\:\\u202F\$\{N\(\`\$\{u\}\`\)\}\] {
+    default: \u202F${N(`${u}`)};
   }
   .backface-hidden {
     backface-visibility: hidden;
